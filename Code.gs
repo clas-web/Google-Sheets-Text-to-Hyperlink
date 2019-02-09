@@ -3,7 +3,7 @@
 * @param range The address of the cell to update (optional, if not included the selected range will be the range)
 */
 
-function addCherwellLinkOptimized(range){
+function addLinkOptimized(range){
   var selected = range || SpreadsheetApp.getActiveSheet().getActiveRange();
   var values = selected.getValues();
   var arr = [values];
